@@ -1,0 +1,353 @@
+DevOps Engineering Jobs and Career Opputunities:-
+Engineering is a trending course from past few years ove the world. Every year there are many  engineering graduates coming out from each part of country . Be it Chennai Or Kashmir, from north to south. Process of manufacturing engineers is continuing at a fast increasing rate. But jobs in engineering are very less. There is a strong need of quality engineers.For an IT job, there is fight from all section of Engineering. Be it computer engineer, civil engineer or electronic engineer. If you go for online job search, latest job trend is DevOps. DevOps is an abbreviation for its two words. Dev implies to development and Ops stand for operation. DevOps offers various types of job opportunities for you, like engineering project manager, development engineering manager, automation engineers and many more various types of best jobs. Let's have a closer look at how DevOps is a better career choice for you:
+
+
+ Packaging:-
+ DevOps is awesome if you love to explore and play with variety of Technology and processes. In my opinion the first thing to consider is the Packaging of IT that the tech teams used to provide the organisations services. The maleable the packaging the easier it is to keep everything standardized and reusable. If you are are comfortable working with configuration management systems and developing some imaging systems such as docker you will like DevOps. Closer look to the recent trends tells us the amount of new technologies that are being released into the market is growing exponentially. In DevOps no technology is beyond limits and you find yourself constantly working with integrated and automating different Technologies. In DevOps your goal is to create machines as machine manageable data objects that are completely completely hands off on the production. The goal is to to allow programs written by different teams to efficiently automate as much as possible.
+
+
+Scaling:-
+You will definitely like DevOps if reusability is your passion. In my opinion the biggest factor in the successful tech organisations of the future will be their ability to scale rapidly while being able to deflate when not needed to minimise costs in downtime.
+If the Application is reliable ,zippy and meet their needs, customers don't care about the tech behind it. They simply want speed.
+Scalability is a hard thing to achieve and most would rather not have to worry about it, which is self explanatory about the growth scalability as a service offering. 
+Now, Ask yourself. Do you want to jump from mobile to AI? DevOps will allow you. Do you want to play with that new SaaS service that is in trend these days? DevOps will let you do that. 
+DevOps is all about being the glue that holds everything and everyone together, and if you ask me, that is what makes it so exciting. The possibilities are beyond limits and the technologies are always growing and evolving at an unexplanatory and unimaginable speed. And if you don’t focus on DevOps, you will still somehow have to manage infrastructure as a developer.
+
+Q. What is the need for DevOps?
+
+As per me, this answer should start by explaining the general market trend. Instead of releasing big sets of features, companies see if small features can be transported to their customers via a series of release trains. This is very much advantageous like quick feedback from customers, better software quality, etc. which in turn takes the company to high customer satisfaction. To achieve this, companies are required to:
+
+Increase frequency of deployment
+Lower the New releases failure rate
+Shorten their lead time between fixes
+DevOps lets you achieve seamless software delivery and fulfills all above requirements. You can give examples of companies like Amazon, Etsy, and Google who have welcomed DevOps to achieve levels of performance that were unimaginable even five years ago. 
+Q. Explain your understanding and expertise on both the software development side and the technical operations side of an organization you’ve worked for in the past.
+
+DevOps engineers always work in a 24*7 critical business online environment. In my previous job, I was very much adaptable to on-call duties and was able to take up real-time, live-system responsibilities. I was successful in automated processes to support continuous software deployments. I have pretty good  experiences with public as well as private clouds, DevOps tools like CHEF or PUPPET, scripting and automation with languages like PYTHON and PHP, and a background in AGILE
+
+
+Q. What is Git?
+
+I will suggest that you attempt this question by first explaining about the architecture of Git.
+
+Git is a form of Distributed Version Control system (DVCS). It lets you track changes to a file and allows you to revert to any specific change.
+Its distributed architecture makes it more advantageous over other Version Control Systems (VCS) like SVN. Another major advantage of Git is that it does not rely on a central server to store all the versions of a project’s files. Instead of that, every developer gets “clones” the copy of a repository. “Local repository”  has the full history of the project on its hard drive so that when there is a problem like a server outage, you need your teammate’s local Git repository for recovery.
+There is a central cloud repository as well where developers can commit changes and share it with other teammates where all collaborators are committing changes “Remote repository"
+
+
+Q. In Git how do you revert a commit that has already been pushed and made public?
+
+There are two possible answers to the above question so make sure that you include both because any of the below options can be used depending on the situation's demand:
+
+Remove the bad file in a new commit and push the file to the remote repository. This is the most common and natural way to fix a bug or an error. Once you have included necessary changes to the file, commit it to the remote repository. For that purpose I will use the command
+git commit -m “commit message"
+Now, Create a new commit that will undo all the changes that were made in the bad Commit. To do so I will be using the command
+git revert <name of bad commit>
+
+
+Q. How is DevOps different from Agile / SDLC?
+
+I would suggest you go through the below explanation:
+
+Agile is a set of values and principles about how to develop a software. For an instance: if you have some idea about something and you want to turn that idea into a working software the Agile values and principles can be used as a way to do that. But, that software might only be working on a developer’s laptop or within a test environment. You need a way to easily, quickly and repeatably move that software into production infrastructure, in a simple and safe way. To do that DevOps tools and techniques are required.
+
+In a nutshell, Agile software development methodology keeps its focus on the development of software but, on the other hand, DevOps is responsible for development as well as the deployment of the software in the safest and reliable possible way.
+
+Now remember, keep this thing in mind, you have included DevOps tools in the previous answer so be prepared to answer some questions related to that. They might be thrown at you.
+
+
+Q. Which are the top DevOps tools? Which tools have you worked on?
+
+Few of The most famous DevOps tools are mentioned below:
+
+Git: Version Control System tool
+Jenkins: Continuous Integration tool
+Selenium: Continuous Testing tool
+Puppet, Chef, Ansible: Configuration Management and Deployment tools
+Nagios: Continuous Monitoring tool
+Docker: Containerization tool
+You can also include any other tool if you want, but make sure you use the above tools in your answer.
+The second part of the answer could have two possibilities:
+
+If you have enough experience with all the above-mentioned tools then you may mention that I have worked on all these tools for developing good quality software and deploying that software easily, frequently, and reliably.
+If you have experience with only with few of the above tools then name those tools and say that I have specialization in these tools and have an overview of the rest of the tools.
+
+
+Q. How do all these tools work together?
+
+The code is developed by the developers and its source code is managed by Version Control System tools like Git etc.
+Developers transmit this code to the Git repository and any transformations made in the code is committed to this Repository.
+Jenkins extracts this code from the repository using the Git plugin and creates it using tools like Ant or Maven.
+Configuration management tools, puppet, deploy & provisions testing environment and after that Jenkins releases the code in the test environment on which testing is done using tools like selenium.
+After the code gets tested, Jenkins sends it for deployment on the production server (even the production server is provisioned & maintained by tools like the puppet).
+After its deployment, It is continuously monitored by tools like Nagios.
+Docker containers provide the testing environment to test the build features.
+
+Q. What is Version control?
+ I guess this is the easiest question you could face in the interview. My take is to first define Version control. It is a system that keeps records of changes to a file or set of files over a period of time so that they can be recalled after specific versions later. Version control systems consist of a centrally shared repository where teammates can commit changes to a file or set of file. Then you might mention the uses of version control.
+
+Version control allows you to:
+
+Restore back files to a previous state.
+Restore back the entire back to a previous state.
+Compare changes over a period of time.
+The issue was introduced by whom and when.
+
+
+Q. What are the benefits of using version control?
+
+The following advantages of version control are suggested to be used:
+
+Version Control System (VCS), allows all the team members to work freely over any file at any point of time. VCS later allows you to merge all the changes into a common version.
+All the past versions and variants are nicely and systematically encapsulated inside the CVS. Whenever you need it, you may request any version of software at any time and you can have a snapshot of the complete project right away.
+Each time you have an updated version of your project, VCS requires you to provide a short info about what was changed. Also, you can see what exactly was altered in the file’s content. This gives you the privilege to know who has made what altered the project.
+A distributed VCS like Git provides all the team members about the complete history of the project so if there is a breakdown in the central server, you may use any of your teammate’s local Git repository.
+
+
+Q. Describe branching strategies you have used.?
+
+This question tests your branching experience so tell them about how you have used branching in your past jobs and what purpose does it serves, you can refer the below points:
+
+Feature branching:
+A feature branch model holds all of the changes for a particular feature inside of a branch. When the feature is completely tested and validated by the automated tests, the branch is then added to the master.
+Task branching:
+In this model, each task is implemented over its own branch with the task key included inside the branch name. It is easy to notice which code implements which task, just search for the task key in the branch name.
+Release branching:
+Once the developed branch acquires enough features for a release, you can get that branch cloned to form a Release branch. Making this branch starts the further release cycle, so no extra features can be added after this point, only bug fixes, documentation generation, and other release-oriented tasks should get on this branch. Once it is ready to be shipped, the release gets merged into master and tagged with a version number. In addition, it should be merged back inside develop branch, which might have progressed since the release was initiated.
+At the end, tell them that branching strategies vary from one organization to another, so I am familiar with basic branching operations like delete, merge, checking out a branch etc.
+
+
+Q. What is meant by Continuous Integration?
+
+It is advised to begin this answer by giving a short definition of Continuous Integration (CI). Continuous Integration is a development practice that needs developers to integrate code into a shared repository many times a day. Each check-in gets verified by an automated build, allowing teams to detect problems early.
+I would suggest you explain how you have implemented it in your previous job.
+
+
+Q. Explain how you can move or copy Jenkins from one server to another?
+
+I could have achieved this task by copying the jobs directory directly from the old server to the new one. There are many ways to do that;  They are mentioned below:
+You can:
+
+Moving a job from one installation of Jenkins to another by simply copying and pasting the corresponding job directory.
+Create a copy of an existing job by making a clone of a job directory by a different name.
+Rename an existing job by renaming a directory. Notice that if you change a job name, then you will need to change any other job that tries to call the renamed job.
+
+
+Q. Explain how can you create a backup and copy files in Jenkins?
+
+The question has a direct answer. To create a backup, all you need to do is to back up your JENKINS_HOME directory at regular intervals of time. JENKINS_HOME directory contains all of your build jobs configurations,  slave node configurations, and build history. For generating a backup of your Jenkins setup, simply copy its directory. You may also copy a job directory for cloning or replicate a job or rename the directory.
+
+Q. How will you secure Jenkins?
+The most common way of securing Jenkins is given below. But if you have any other way of doing it, you may go with it, but make sure you are correct:
+Make sure that the global security is on.
+Make sure that Jenkins is integrated with “my company’s” user directory using the appropriate plugin.
+Make sure that matrix/Project matrix is enabled for getting the fine tune access.
+Automate the setting rights/privileges process in Jenkins with custom version controlled script.
+Bound the physical access to Jenkins data/folders.
+Run security audits on same over a period of time.
+
+Q. What is Continuous Testing?
+It is advised to follow the under mentioned explanation:
+“Continuous Testing is the process of executing automated tests as a part of the software delivery pipeline to produce immediate feedback over the business risks associated with the latest build. In this method, each build gets tested continuously, allowing Development teams to get fast feedbacks so that as to prevent those problems from progressing to the successive stage of Software delivery life-cycle. Continuous Testing speeds up a developer’s workflow dramatically as there’s no need to manually rebuild the project and re-run all of the tests after making changes.”
+
+Q. What is Automation Testing?
+Automation testing or Test Automation is a process of automating the manual process for testing the application/system under test. The Process involves the use of separate testing tools which allows you to create test scripts which can be executed repeatedly and doesn’t require any sort of manual intervention.
+
+
+Q. What are the benefits of Automation Testing?
+Some of the many advantages of Automation Testing are mentioned below. Including these points in your answer and adding your own experience of how Continuous Testing helped you previous in your previous job, will make an impressive and impacting answer:
+Supports execution of repeated test cases
+Aids in testing a large test matrix
+Enables parallel execution
+Encourages unattended execution
+Improves accuracy thereby reducing human-generated errors
+Saves time and money
+
+Q. What is the difference between Assert and Verify commands in Selenium?
+The basic difference between Assert and Verify command is given below:
+Assert command checks if the given condition is boolean true or boolean false. For an instance, say, we assert whether the given element is present on the web page or not. If the condition results to be true, then the program control will execute the next test step. But, if the condition results in false, the execution would be terminated and no further test would be executed.
+Verify command also performs check whether the given condition is true or false. Irrespective of the condition being true or false, the program execution doesn’t stop  i.e. if the verification process fails, it would not stop the execution and all the test steps will be executed.
+
+
+Q. How can be a browser launched using WebDriver?
+The following syntax could possibly be used to launch Browser:
+“WebDriver driver = new FirefoxDriver();”
+“WebDriver driver = new ChromeDriver();”
+“WebDriver driver = new InternetExplorerDriver();”
+
+Q. What are the goals of Configuration management processes?
+The basic purpose of Configuration Management (CM) is to ensure if the product is integral or system throughout its life-cycle by making t0he development or deployment process controllable and repeatable, thus creating a higher quality product or system. The Configuration Management  process allows orderly management of system information and system changes for purposes such as to:
+Revise capability,
+Improve performance,
+Reliability or maintainability,
+Extend life,
+Reduce cost,
+Reduce risk and
+Liability, or correct defects.
+
+Q. What is the difference between an Asset and a Configuration Item?
+As per me, first of all, Asset should be explained. It has a financial value along with a depreciation rate attached to it. IT  assets are just a sub-set. Everything and anything that holds a  cost and the organization uses it for the calculation of its asset value and related benefits in the calculation of tax falls under Asset Management, and such item is called an asset.
+On the other hand, Configuration Item may or may not have financial values assigned to it. Also, there will not be any depreciation linked to it. Thus, its life will not depend on its financial value but will depend on the time till that item becomes obsolete for the organization.
+Now  examples can be given  that can showcase the similarity and differences between both:
+1) Similarity:
+Server – It is both an asset as well as a CI.
+2) Difference:
+Building – It is an asset but not a CI.
+Document – It is a CI but not an asset
+
+
+Q . What is Chef?
+Start the answer with the definition of Chef. The Chef is one of the powerful automation platforms that turns infrastructures into code. A chef is a tool for which scripts are written that are used to automate processes. What kind of processes?  Any process that is related to IT.
+Now the architecture of Chef can be explained, it consists of:
+Chef Server: The Chef Server is the central store of infrastructure’s configuration data. The Chef Server stores the data necessary to configure the nodes and provides search. ChefServer is a powerful tool that lets you to dynamically drive node configuration based on data.
+Chef Node: Node is any host that gets configured using Chef-client. Chef-client runs on nodes. ChefNode contacts the Chef Server for the information necessary to configure the node. Now, since a Node is just a machine that runs the Chef-client software, nodes may be sometimes referred to as “clients”.
+Chef Workstation: A Chef Workstation is a host used to modify cookbooks and other confrontational data.
+
+
+Q2. What is Nagios?
+This question can be answered by first mentioning that Nagios is one of the monitoring tools used for Continuous monitoring of systems, applications, services, and business processes etc in  DevOps culture. If a failure occurs, Nagios alerts technical staff about the problem, that allows them to begin remedial processes before outages affect business processes, end-users, or customers. With Nagios, you need not explain why an unseen infrastructure outage affects your organization's bottom line.
+Now once you defined what is Nagios, you can mention various things that can be achieved using Nagios.
+By using Nagios you can:
+Plan for infrastructure upgrades before outdated systems cause failures.
+Response to the issues at problem’s first sign.
+Automatically fix detected problems.
+Coordinate easily with technical team responses.
+Ensure that your organization’s SLAs are being met.
+Monitor your entire infrastructure and business processes.
+Nagios runs on a server, usually as a daemon or service. Nagios runs plugins residing on the same server over a period of time. They make contact to hosts or servers on your network or over the internet. One can see the status information using the web interface. Nagios also sends email or SMS notifications if something happens.
+The Nagios daemon acts like a scheduler that executes certain scripts at certain moments. It then saves the results of those scripts and will run other scripts if these results change.
+
+*****************************************************************************************************
+
+DevOps Job Description
+Demand for people with DevOps skills is growing at a fast and steady rate because businesses are getting great results from DevOps. Organizations using DevOps practices are surprisingly high-functioning: -
+
+
+They can deploy code up to 30 times more frequently than their competitors, and 50 percent lesser of their deployments fail.
+With all this goodness, you would be thinking that there must be lots of DevOps engineers out there. However, just 18% of survey respondents in the survey said someone in their organization actually held this title. Why is that? Partly, it is because defining what a  DevOps engineers can do is still in flux. Although, That is not stopping companies from hiring for DevOps skills. On LinkedIn, people's mentioning of DevOps as a skill has seen a rise of 50 percent over the past few years. A survey revealed the same trend:
+ Half of about 4,000-plus respondents (in more than 90 countries) said their companies are considering DevOps skills while hiring.
+
+
+What are DevOps skills?
+The survey identified the top three skill areas for DevOps staff:
+
+Coding or scripting
+Process re-engineering
+Communicating and collaborating with others
+The above-mentioned skills point to a growing recognition, that software isn’t written in the old stereotypical way anymore. Where software was written from scratch using a highly complex and lengthy process. Also, creating new products is now a matter of selecting open source components and binding them together with code. The complexity of today’s software lies less in the programming, and more in ensuring that the new software works over a diverse set of operating systems. Making it platform independent right away. Same way, testing and deployment are now done at a much more frequency. That is, they can be more often— if developers start communicating more early and regularly with the operations team, and also if, operations people bring their knowledge of the production environment to design of testing and staging environment.
+
+
+What is a DevOps engineer, anyway? And should anyone hire them?
+There’s no formal cliched career track for kickstarting your career as a DevOps engineer. They are maybe developers who get interested in deployment and network operations, they might be sysadmins who have an affinity for scripting and coding. Whatever world they are from, these are people who have pushed themselves out of their comfort zone of their defined areas of competence and who have a more holistic view of their technical environments.
+DevOps engineers are a quite elite group, so it’s not astonishing that we found a smaller number of companies creating that title. Kelsey Hightower, head of operations at Puppet Labs, described these people as the “Special Forces” in an organization. “The DevOps engineer encapsulates depth of knowledge and years of hands-on experience,” Kelsey says, “You’re battle tested. This person blends the skills of the business analyst with the technical chops to build the solution - plus they know the business well, and can look at how any issue affects the entire company.
+So, in a nutshell, DevOps provides you lots of career opportunities and companies are ACTUALLY hiring DevOps engineers.
+
+******************************************************************************
+
+Object-Oriented Programming:-
+Object-Oriented Programming or commonly called OOPs is
+There are 5 basic concepts of OOPs. Let's have a closer look at each of them.
+
+
+1. Abstraction
+This is the property of OOPs which refers to the act of representing only the essential details and hiding
+the background data. Consider a car as your object. You are told that if you apply the brakes, the vehicle
+stops. The background details, like the mechanism how the fluid runs through, the brake shoes stopping
+the wheel, etc. are hidden from you. This is what abstraction is. Abstraction is the advantage that you
+get from Object Oriented Programming over Procedural Oriented Programming.
+
+
+2. Encapsulation
+The process of binding characteristics and behavior in a single unit is simply known as
+Let's get back to our previous example of a car. In a car, we have a steering that helps to change the direction, we have brakes to stop the car, we have a music system to listen to music, etc. These all units are capsuled (or ENcapsuled) under a single unit called CAR. Like objects, each unit has its own
+ characteristics as well as behavior.
+It is a common observation that a class encapsulates objects of the similar kind under a single unit.
+
+
+3. Modularity
+Modularity is the feature of Object Oriented Programming that allows us to break a bigger problem in
+smaller chunks and assemble it together, later. For an instance, during the manufacturing of a car, parts
+are constructed separately. Like there is a unit that makes the engine, a unit makes the outer body, a
+unit makes the interior, etc. Later on, all the parts are assembled at one place. This way, a big problem is divided into small chunks and handled easily.
+In Object Oriented Programming, Modularity is implemented by functions.
+
+
+4. Inheritance
+Inheritance is the capability of a class to inherit the properties of some other class. For an example,
+consider CAR as a class. Now let's take TOYOTA, NISSAN, SWIFT, HYUNDAI, etc. as some other class.
+These classes will have them some individual properties but they will inherit some of their properties
+from the class CAR. Like moving on applying accelerator, stopping when brakes are applied, etc.
+The inheriting class is called the subclass whereas the inherited class is called base class. In the above
+example, CAR is the base class and others are a subclass.
+
+
+5. Polymorphism
+
+The act of existing in more than one form
+Lets again get back to our example of cars. Consider a class called HYUNDAI. The HYUNDAI class has an
+object i10. Now there can be many cars with the name i10, but they have a unique identification. (
+either by their registration number or engine number, we are not concerned here about that)
+In an Object Oriented Programming language, there can be many functions with the same name but
+they should be of different parameters.
+So now you know, the 5 pillars of Object Oriented Programming.
+
+ Happy coding!
+
+*******************************************************************************
+
+
+DevOps For Dummies- A Wiley Brand 
+is an IBM limited edition written by Sanjeev Sharma 
+and Bernie Coyne. Earlier it was written only by Sanjeev Sharma alone, but in the latest third edition, 
+Bernie Coyne co-authored the book. This is a book for the people interested in DevOps. It takes you 
+from beginner to advanced level. The book is available in the form of electronic media i.e. e-book. The 
+free of cost book comes from IBM.
+Go to the link above and fill in your details, and you will get the download link of your copy.
+Let's take a look at the book's features:
+Cover Page:-
+It is often said, don't judge a book by its cover. But we humans are very much stubborn 
+and the cover matters the most for the readers, as it lures them towards itself. The cover page for 
+DevOps for dummies is a mixture of Black, blue and yellow color; with an animated geeky face outline. 
+At the top, IBM logo resides with its full dignity. The middle right half of the page covers the main 
+outlines of the book:
+
+
+The business needs and value of DevOps.
+DevOps capabilities and adoption path.
+How Cloud accelerates DevOps.
+Table Of Content:-
+Next, as we turn over the "virtual pages" comes the table of content. This gives 
+an overview of what you are going to learn from this book. There are chapter names with their 
+subtopics under them. The chapter names are as follows:-
+
+
+1.What is DevOps?
+2.Looking at DevOps capabilities.
+3.Adopting DevOps.
+4.Looking at how cloud accelerates DevOps.
+5.Using DevOps to solve new challenges.
+6.Making DevOps work: IBM's Story.
+7.Ten DevOps myths.
+
+
+Introduction:-
+Next, comes in the introduction part. 
+In the first line, the meaning of DevOps with its expanded form of Development and Operations is 
+explained. Everyone talks about it, but not everyone is familiar with it. In a nutshell, DevOps is an 
+approach based on lean and agile principles in which business owners and the development, operations, 
+and quality assurance departments collaborate to deliver software in a continuous manner. The further 
+lines tell about the IBM's broad and holistic view towards DevOps.
+The book tells what a true DevOps approach includes:
+Lines of business, practitioners, executives, partners, suppliers, and so on.
+About the book:-
+The about the book section gives an overview of the book.
+The book takes a business-centric approach to DevOps. Today’s rapidly advancing world makes DevOps essential to all enterprises that should be agile and lean enough to respond rapidly to the changes such as customer demands, market conditions, competitive pressures, or regulatory requirements.
+It is assumed that, if you are reading this book, you’ve heard about DevOps but want to understand 
+what it means and how your company can gain business benefits from it. This book is targeted for 
+executives, decision-makers, and practitioners who are new to the DevOps, seeking info about the 
+approach, who want to go through the hype surrounding the concept to reach t
+
+
+Who is the target audience?
+Who want to learn Docker Technologies
+The one should have IT experience. No other prerequisite.
