@@ -1,4 +1,8 @@
 // command to check particular port is listening to any service or not. It will return process id as well process name.
 sudo netstat -lpn |grep :8080
 
-
+// find command 
+// how to find multiple file types
+  find -name "*.sh" -o -name "*.txt"
+  
+  
